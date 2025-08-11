@@ -1,4 +1,4 @@
-const demoWhatsApp = "919876543210"; // WhatsApp number without '+'
+const demoWhatsApp = "917668185039"; // WhatsApp number without '+'
 
 const groceryProducts = [
   { name: "Rice", shop: "FreshMart", price: "₹60/kg", image: "https://picsum.photos/seed/rice/200/150" },
@@ -78,4 +78,5 @@ function showSummary() {
 
 // Initial rendering
 displayProducts(groceryProducts, "groceryList");
+
 displayProducts(medicineProducts, "medicineList");
